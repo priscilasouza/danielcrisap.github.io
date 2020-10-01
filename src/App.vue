@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png" width="25%" /> -->
-    <HelloWorld msg="Daniel Cristian" />
+    <Welcome msg="Daniel Cristian" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Welcome from "./components/Welcome";
 import ReachMe from "./components/ReachMe";
 
 export default {
   name: "App",
   components: {
     ReachMe,
-    HelloWorld,
+    Welcome,
   },
 };
 </script>
