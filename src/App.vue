@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png" width="25%" /> -->
+    <HelloWorld msg="Daniel Cristian" />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import ReachMe from "./components/ReachMe";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    ReachMe,
+    HelloWorld,
+  },
 };
 </script>
 
